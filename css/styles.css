@@ -515,10 +515,6 @@ img {
     color: #ffffff
 }
 
-.social {
-    display: flex;
-}
-
 .footer-social-list {
     display: flex;
     gap: 16px;
