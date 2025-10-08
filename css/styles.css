@@ -317,7 +317,7 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-item-section {
+.team-item-container {
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
@@ -327,7 +327,7 @@ img {
     gap: 8px;
 }
 
-.team-item-social {
+.team-social-container {
     display: flex;
 }
 
@@ -338,7 +338,11 @@ img {
     gap: 24px;
 }
 
-.social-item {
+.team-social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
     width: 40px;
     height: 40px;
 }
