@@ -327,10 +327,6 @@ img {
     gap: 8px;
 }
 
-.team-social-container {
-    display: flex;
-}
-
 .team-social-list {
     display: flex;
     align-items: center;
